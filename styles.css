@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff5733;
+  color: white;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.profile {
+  background: white;
+  color: #ff5733;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.profile:hover {
+  background: #ddd;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #ff5733;
+}
+
+/* Forms */
+form {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background: #ff5733;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e64c22;
+}
+
+/* List of Medicines */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.edit, .delete {
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.edit {
+  background: #28a745;
+  color: white;
+}
+
+.delete {
+  background: #dc3545;
+  color: white;
+}
+
+.edit:hover {
+  background: #218838;
+}
+
+.delete:hover {
+  background: #c82333;
+}

@@ -29,7 +29,8 @@ Tested on: macOS (MacBook Air M1)
 📷 Preview
 (Feel free to add screenshots here showing off the login page, dashboard, and medicine list!)
 
-🛠️ How to Set It Up Locally
+**
+🛠️ How to Set It Up Locally**
 Download and install XAMPP.
 
 Clone or download this repo into your htdocs folder (inside the XAMPP installation directory).
@@ -58,7 +59,9 @@ Edit
 ├── edit_medicine.php
 ├── delete_medicine.php
 └── logout.php
-🙋‍♂️ About Me
-Hey! I'm Anurag, a student and developer from Andhra Pradesh, India.
+
+**
+🙋‍♂️ About Me**
+Hey! I'm Anurag, a student and developer.
 I love building useful tools like this and learning new tech along the way.
 Feel free to connect or share feedback — I’m always looking to improve! ✌️
